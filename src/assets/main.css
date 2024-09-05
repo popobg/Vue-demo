@@ -1,0 +1,47 @@
+@import './base.css';
+@import './button.css';
+@import './responsive.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #800020;
+  font-size: xxl-large;
+  text-align: center;
+}
+
+em {
+  color: #317873;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+hr {
+  width: 100%;
+}
+
+.textInput {
+  width:15rem;
+  margin: 0.5em;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
